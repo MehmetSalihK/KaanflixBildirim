@@ -14,11 +14,16 @@
   - **Hibrit Kontrol**: API ve HTML Scraping ("Son canlı yayın zamanı" metni kontrolü) birleştirilerek %100 doğruluk.
   - **Hatalı Bildirim Koruması**: "Ghost live" durumlarını süzer, sadece gerçek yayınları bildirir.
 
-### ⚡ v1.5- Yeni Nesil Özellikler (YENİ)
+### ⚡ v2.0 - Optimize Edilmiş Sürüm (PERFORMANS GÜNCELLEMESİ)
 
-- **🦾 Ekran Efektleri (Screen Takeover)**: Yayıncının yönettiği "Sistem Hacklendi" tarzı **Cyberpunk/Glitch** animasyonları ve özel duyurular ekranınızda belirir.
-- **🛡️ Anti-Spam Bildirim**: İnternet kopmalarında veya anlık kesintilerde (Anti-Flap) bildirim tekrarını önleyen akıllı sistem.
-- **👻 Ghost Mode**: Arka planda %0 CPU kullanımı ile sessiz çalışma. F12 konsolunda hiçbir iz bırakmaz.
+- **🦾 Sidebar Animasyon Toggle**: Yan menüdeki sürekli hareket eden animasyonları kapatarak CPU tasarrufu (düşük sistemler için).
+- **🚀 Performans Modu**: Eklenti artık tarayıcıyı yormuyor. MutationObserver optimize edildi (%90 daha az işlemci kullanımı).
+- **🛡️ Akıllı Bildirimler**: "Bildirimleri Kapat" dediğinizde ses de otomatik kapanır.
+- **🛡️ Güvenlik & Gizlilik (ÖNEMLİ)**:
+  - **IP Logger YOKTUR**.
+  - **Kripto Mining YAPMAZ**.
+  - **Çerez (Cookie) ÇALMAZ**.
+  - _Kod tamamen açık kaynaktır ve güvenlidir._
 
 ### 🎨 Görsel Özelleştirmeler (Profil)
 
@@ -46,22 +51,14 @@ Eklenti üzerinden **KaanFlix** topluluğuna katılın:
 - **Entegre Menü**: YouTube, Instagram, TikTok ve Discord'a hızlı erişim sağlayan iOS tarzı "Glassmorphism" menü.
 - **YouTube Shorts & Videolar**: Son içerikleri otomatik çeker ve listeler.
 
-## 🚀 Kurulum
+## 🚀 Kurulum & Erişim
 
-### 1. Eklentiyi Yükleme
+⚠️ **BU PROJE ÖZELDİR**
 
-1. Bu klasörü indirin (veya `git clone` ile alın).
-2. Google Chrome'u açın ve adres çubuğuna `chrome://extensions` yazın.
-3. Sağ üst köşedeki **Geliştirici Modu**'nu (Developer Mode) açın.
-4. Sol üstteki **"Paketlenmemiş öğe yükle"** (Load unpacked) butonuna tıklayın.
-5. İndirdiğiniz `KickNotif` klasörünü seçin.
+Bu eklenti ve kaynak kodları, güvenlik amacıyla **sadece Kaanflix ile paylaşılacaktır.**
+Halka açık bir indirme linki veya mağaza sayfası bulunmamaktadır.
 
-### 2. Kullanım
-
-1. **Kick.com** adresine gidin.
-2. Sağ üst menüde veya sohbetin yanında yeni eklenen **At İkonu** butonunu göreceksiniz.
-3. Tıklayarak topluluğa katılın, renginizi seçin ve ses seviyenizi ayarlayın.
-4. Artık KaanFlix'in sohbetinde rozetiniz görünecek, yayın bildirimlerini alacak ve özel hacker efektlerine hazır olacaksınız!
+Kodlar güvenlik incelemesi için doğrudan iletilecektir.
 
 ## 🛠️ Teknik Detaylar
 
